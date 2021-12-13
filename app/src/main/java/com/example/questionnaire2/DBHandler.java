@@ -53,8 +53,8 @@ public class DBHandler extends SQLiteOpenHelper {
         String query = "CREATE TABLE " + TABLE_NAME + " ("
                 + ID_PARTICIPANT + " INTEGER PRIMARY KEY AUTOINCREMENT, "
                 + NAME_PARTICIPANT + " TEXT,"
-                + SCORE_PARTICIPANT + " INTEGER)";
-        //        + DATE_SCORE_PARTICIPANT + " TEXT)";
+                + SCORE_PARTICIPANT + " INTEGER,"
+                + DATE_SCORE_PARTICIPANT + " TEXT)";
 
         // at last we are calling a exec sql
         // method to execute above sql query
@@ -69,9 +69,9 @@ public class DBHandler extends SQLiteOpenHelper {
         // as we are writing data in our database.
         SQLiteDatabase db = this.getWritableDatabase(PASSWORD);
 
-        //Date c = Calendar.getInstance().getTime();
-        //SimpleDateFormat df = new SimpleDateFormat("dd-MM-yyyy", Locale.getDefault());
-        //String participantDateScore = df.format(c);
+        Date c = Calendar.getInstance().getTime();
+        SimpleDateFormat df = new SimpleDateFormat("dd-MM-yyyy", Locale.getDefault());
+        String participantDateScore = df.format(c);
 
         // on below line we are creating a
         // variable for content values.
@@ -81,7 +81,7 @@ public class DBHandler extends SQLiteOpenHelper {
         // along with its key and value pair.
         values.put(NAME_PARTICIPANT, participantName);
         values.put(SCORE_PARTICIPANT, participantScore);
-        //values.put(DATE_SCORE_PARTICIPANT, participantDateScore);
+        values.put(DATE_SCORE_PARTICIPANT, participantDateScore);
 
 
         // after adding all values we are passing
