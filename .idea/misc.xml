@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Mathis/AndroidStudioProjects/questionnaire/app/src/main/res/layout/activity_accueil.xml" value="0.22760416666666666" />
+        <entry key="..\:/Users/Mathis/AndroidStudioProjects/questionnaire/app/src/main/res/layout/activity_accueil_relative.xml" value="0.22760416666666666" />
+        <entry key="..\:/Users/Mathis/AndroidStudioProjects/questionnaire/app/src/main/res/layout/activity_question1.xml" value="0.22760416666666666" />
+        <entry key="..\:/Users/Mathis/AndroidStudioProjects/questionnaire/app/src/main/res/layout/activity_question2.xml" value="0.22760416666666666" />
+        <entry key="..\:/Users/Mathis/AndroidStudioProjects/questionnaire/app/src/main/res/layout/activity_question3.xml" value="0.22760416666666666" />
+        <entry key="..\:/Users/Mathis/AndroidStudioProjects/questionnaire/app/src/main/res/layout/activity_question4.xml" value="0.22760416666666666" />
+        <entry key="..\:/Users/Mathis/AndroidStudioProjects/questionnaire/app/src/main/res/layout/activity_resultats.xml" value="0.22760416666666666" />
+        <entry key="..\:/Users/Mathis/AndroidStudioProjects/questionnaire/app/src/main/res/layout/row.xml" value="0.22760416666666666" />
+        <entry key="..\:/Users/Mathis/AppData/Local/Android/Sdk/platforms/android-31/data/res/layout/simple_list_item_single_choice.xml" value="0.22760416666666666" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

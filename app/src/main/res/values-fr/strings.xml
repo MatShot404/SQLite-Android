@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Questionnaire</string>
+    <string name="action_settings">Settings</string>
+    <string name="libQuestion">Qui êtes-vous ?</string>
+	<string name="libNom">Nom :</string>
+	<string name="libOK">COMMENCER</string>
+	<string name="debutMessage">Bienvenue</string>
+	<string name="finMessage">Commencez le quizz !</string>
+	<string name="title_activity_question1">Question 1</string>
+	<string name="libQuestion1">La capitale du Japon est Kyoto ?</string>
+	<string name="libVrai">VRAI</string>
+	<string name="libFaux">FAUX</string>
+	<string name="libSuivant">SUIVANTE</string>
+	<string name="libVerif">VERIFIER</string>
+	<string name="title_activity_question2">Question 2</string>
+	<string name="libQuestion2">Quelle est la capitale de l\'Argentine ?</string>
+	<string name="title_activity_question3">Question 3</string>
+	<string name="libQuestion3">Sur quel continent se trouve le Belize ?</string>
+    <string name="title_activity_question4">Question 4</string>
+    <string name="libQuestion4">Quelles couleurs sont présentes sur le drapeau de la Jamaïque ?</string>
+    <string name="title_activity_resultats">Resultats</string>
+    <string name="libVoirReponses">Voir vos réponses</string>
+</resources>

@@ -1,0 +1,37 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/fond"
+    android:orientation="vertical">
+	<TextView
+	    android:id="@+id/titre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginTop="20dip"
+        android:layout_marginBottom="10dip"/>
+	<TextView
+	    android:id="@+id/score"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:layout_marginTop="20dip"
+        android:layout_marginBottom="10dip"/>
+	<CheckBox 
+	   	android:id="@+id/voirReponses"
+		android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	     android:textSize="15sp"
+	    android:text="@string/libVoirReponses"  />
+	<ListView
+        android:id="@+id/listResponses"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:choiceMode="none" >
+    </ListView>
+</LinearLayout>
+
+

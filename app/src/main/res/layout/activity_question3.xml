@@ -1,0 +1,51 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/fond"
+    android:orientation="vertical">
+
+	<TextView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_marginTop="20dip"
+		android:layout_marginBottom="10dip"
+		android:text="@string/libQuestion3"
+		android:textColor="#000000"
+		android:textSize="20sp"
+		android:textStyle="bold" />
+     <ListView
+      android:id="@+id/listProposition"
+      android:layout_width="fill_parent"
+      android:layout_height="wrap_content"
+      android:choiceMode="singleChoice" >
+    </ListView>
+    <LinearLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dip">
+        <Button 
+			android:id="@+id/boutonVerif"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_gravity="center_horizontal"
+			android:text="@string/libVerif"
+			android:layout_margin="10dip"/> 
+		<Button 
+			android:id="@+id/boutonSuiv"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_gravity="center_horizontal"
+			android:text="@string/libSuivant"
+			android:layout_margin="10dip"/> 
+    </LinearLayout>
+ 	<TextView
+	    android:id="@+id/message"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="0dip" />
+</LinearLayout>
+
